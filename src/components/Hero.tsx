@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logo from "/public/naqshLogo.png";
-import Link from "next/link";
+import logo from "../components/ui/img/NaqshLogo.png";
+
 function Hero() {
   return (
     <div className="flex flex-col justify-center items-center font-sans  ">
