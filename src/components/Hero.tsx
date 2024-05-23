@@ -18,7 +18,7 @@ function Hero() {
 
       <div className="gap-y-2 grid lg:grid-cols-3 lg:gap-6 p-2 ">
         <a
-          href="#"
+          href="/contact"
           className="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
@@ -37,15 +37,16 @@ function Hero() {
             </svg>
 
             <h3 className="text-slate-900 group-hover:text-white text-sm font-semibold">
-              Music, Sound Design and VFX
+              Music, Sound Design and SFX
             </h3>
           </div>
           <p className="text-slate-500 group-hover:text-white text-sm">
-            Create a new project from a variety of starting templates.
+            Need bespoke music or sound effects for your film or documentary?
+            Lets create something amazing together.
           </p>
         </a>
         <a
-          href="#"
+          href="/contact"
           className="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
@@ -73,11 +74,12 @@ function Hero() {
             </h3>
           </div>
           <p className="text-slate-500 group-hover:text-white text-sm">
-            Create a new project from a variety of starting templates.
+            Capture Perfect Moments Our expert photographers and editors are
+            ready to deliver stunning visuals. Start your photo journey now.
           </p>
         </a>
         <a
-          href="#"
+          href="/contact"
           className="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
@@ -96,16 +98,17 @@ function Hero() {
             </svg>
 
             <h3 className="text-slate-900 group-hover:text-white text-sm font-semibold">
-              Videography, Editing and VFX
+              Film, Videography, Editing and VFX
             </h3>
           </div>
 
           <p className="text-slate-500 group-hover:text-white text-sm">
-            Create a new project from a variety of starting templates.
+            From filming to advanced visual effects, our skilled team is here to
+            produce your next masterpiece. Get started with us today.
           </p>
         </a>
         <a
-          href="#"
+          href="/contact"
           className="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
@@ -129,11 +132,13 @@ function Hero() {
           </div>
 
           <p className="text-slate-500 group-hover:text-white text-sm">
-            Create a new project from a variety of starting templates.
+            Whether you need a logo, 2D, or 3D illustrations, our creative
+            designers are here to bring your vision to life. Start designing
+            now.
           </p>
         </a>
         <a
-          href="#"
+          href="/contact"
           className="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
@@ -157,7 +162,9 @@ function Hero() {
           </div>
 
           <p className="text-slate-500 group-hover:text-white text-sm">
-            Create a new project from a variety of starting templates.
+            Need a captivating website for your business? We specialize in
+            creating stunning, functional websites. Begin your web project with
+            us today.
           </p>
         </a>
       </div>

@@ -80,12 +80,11 @@ const people = [
       "Naveed Hassan is the architectural visionary of our team, blending creativity with precision to design spaces that are both functional and inspiring. With a keen eye for detail and a deep understanding of structural dynamics, Naveed brings a unique perspective to every project. His innovative designs not only meet the needs of our clients but also push the boundaries of modern architecture.",
   },
 
-  // More people...
 ];
 
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32 mt-10 font-sans">
+    <div className="bg-white w-[100vw] md:w-full py-24 sm:py-32 mt-10 font-sans">
       <div className="mx-auto grid  max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

@@ -1,22 +1,15 @@
 function Navbar() {
   return (
-    <div className="flex bg-slate-100 justify-between px-20 py-6">
+    <div className="flex bg-slate-100 justify-end px-20 py-6">
       <a
-        className="border rounded-lg p-2  bg-white text-slate-900 group-hover:text-white text-sm font-semibold  hover:bg-sky-500 hover:ring-sky-500"
-        href="#"
-      >
-        About us
-      </a>
-
-      <a
-        className="border rounded-lg p-2  bg-white text-slate-900 group-hover:text-white text-sm font-semibold flex items-center space-x-3  hover:bg-sky-500 hover:ring-sky-500"
+        className="border rounded-lg p-2  bg-white text-slate-900 group-hover:text-white text-sm font-semibold flex items-center space-x-3  hover:bg-sky-400 hover:ring-sky-400"
         href="#"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="currentColor"
           className="w-4 h-4"
         >
