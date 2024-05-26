@@ -16,7 +16,7 @@ async function Menu() {
         <TabsTrigger value="Sound">Sound</TabsTrigger>
         <TabsTrigger value="Websites">Websites</TabsTrigger>
       </TabsList>
-      <TabsContent value="Images" className="bg-white  h-screen  ">
+      <TabsContent value="Images" className="bg-white  h-auto ">
         <div className="">
           <Gallery />
         </div>
