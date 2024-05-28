@@ -13,17 +13,19 @@ interface CloudinaryResource {
 
 async function Gallery() {
   const { resources } = await cloudinary.search
-    .expression("tags=person")
+    .expression("tags=assets")
     .execute();
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2  ">
+    <div className="grid grid-cols-2 md:grid-cols-4 grid-flow-row gap-1 ">
       {resources.map((product: CloudinaryResource) => {
         return (
           <a href="" key={product.public_id}>
-            <img
-              className="hover:opacity-60 h-auto max-w-full gap-1 rounded-md"
+            <Image
+              className="hover:opacity-60 h-full max-w-full gap-1 rounded-md"
               alt=""
               src={product.secure_url}
+              width={500}
+              height={500}
             />
           </a>
         );

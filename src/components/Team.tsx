@@ -63,22 +63,22 @@ const people = [
       "Wajahat's designs are a perfect fusion of creativity and strategic thinking. His visuals communicate powerful messages, ensuring that our brand's identity is both strong and memorable.",
   },
 
-  {
-    name: "Tanveer Hussain",
-    role: "Full-Stack Web Developer",
-    imageUrl:
-      "https://res.cloudinary.com/dbtqrbhh6/image/upload/e_improve,e_sharpen/v1716398220/Screenshot_2024-05-22_at_10.16.18_PM_heey5a.png",
-    description:
-      "Tanveer is the architect of our digital presence. His expertise in full-stack development ensures that our online platforms are not only innovative and user-friendly but also robust and secure",
-  },
-  {
-    name: "Naveed Hassan",
-    role: "Architect",
-    imageUrl:
-      "https://res.cloudinary.com/dbtqrbhh6/image/upload/b_rgb:333B4C/v1716394134/Screenshot_2024-05-22_at_9.07.41_PM_xycsd4.png",
-    description:
-      "Naveed Hassan is the architectural visionary of our team, blending creativity with precision to design spaces that are both functional and inspiring. With a keen eye for detail and a deep understanding of structural dynamics, Naveed brings a unique perspective to every project. His innovative designs not only meet the needs of our clients but also push the boundaries of modern architecture.",
-  },
+  // {
+  //   name: "Tanveer Hussain",
+  //   role: "Full-Stack Web Developer",
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dbtqrbhh6/image/upload/e_improve,e_sharpen/v1716398220/Screenshot_2024-05-22_at_10.16.18_PM_heey5a.png",
+  //   description:
+  //     "Tanveer is the architect of our digital presence. His expertise in full-stack development ensures that our online platforms are not only innovative and user-friendly but also robust and secure",
+  // },
+  // {
+  //   name: "Naveed Hassan",
+  //   role: "Architect",
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dbtqrbhh6/image/upload/b_rgb:333B4C/v1716394134/Screenshot_2024-05-22_at_9.07.41_PM_xycsd4.png",
+  //   description:
+  //     "Naveed Hassan is the architectural visionary of our team, blending creativity with precision to design spaces that are both functional and inspiring. With a keen eye for detail and a deep understanding of structural dynamics, Naveed brings a unique perspective to every project. His innovative designs not only meet the needs of our clients but also push the boundaries of modern architecture.",
+  // },
 
 ];
 
