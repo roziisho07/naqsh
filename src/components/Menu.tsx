@@ -1,20 +1,19 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import demoImage from "/public/demoimg.jpg";
-import Image from "next/image";
 import Gallery from "./Gallery";
 import VideoGallery from "./Videos";
+import GraphicsGallery from "./GraphicsGallery";
 
 async function Menu() {
   return (
     <Tabs
       defaultValue="Images"
-      className="w-full flex flex-col items-center justify-center p-6"
+      className="w-full flex flex-col items-center justify-center p-6 "
     >
-      <TabsList className="text-sm">
+      <TabsList className="text-sm bg-slate-300 text-blue-800 mb-8">
         <TabsTrigger value="Images">Images</TabsTrigger>
         <TabsTrigger value="Video">Videos</TabsTrigger>
-        <TabsTrigger value="Sound">Sound</TabsTrigger>
-        <TabsTrigger value="Websites">Websites</TabsTrigger>
+        <TabsTrigger value="Sound">Music</TabsTrigger>
+        <TabsTrigger value="illustrations">Graphics</TabsTrigger>
       </TabsList>
       <TabsContent value="Images" className="bg-white  h-auto ">
         <div className="">
@@ -23,9 +22,11 @@ async function Menu() {
       </TabsContent>
       <TabsContent
         value="Video"
-        className="w-full bg-white grid grid-flow-row gap-2 pt- "
+        className="w-full grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-1  "
       >
-        <VideoGallery videoId="TfOq7a0a3xU" />
+        <div className="bg-slate-200">
+          <VideoGallery videoId="TfOq7a0a3xU" />
+        </div>
         <VideoGallery videoId="YkhEB52_m3U" />
         <VideoGallery videoId="TIoYXg-YeEs" />
         <VideoGallery videoId="5soozTqlLfE" />
@@ -34,10 +35,10 @@ async function Menu() {
         <VideoGallery videoId="r4P0Typq_5c" />
         <VideoGallery videoId="7EDlb5QDl1o" />
       </TabsContent>
-      <TabsContent value="Sound">Sound</TabsContent>
-      <TabsContent value="Websites">Web Dev</TabsContent>
-      <TabsContent value="illustrations">illustrationsv</TabsContent>
-      <TabsContent value="architecture">Archi</TabsContent>
+      <TabsContent value="Sound">Currently unavailable!</TabsContent>
+      <TabsContent value="illustrations">
+        <GraphicsGallery />
+      </TabsContent>
     </Tabs>
   );
 }
