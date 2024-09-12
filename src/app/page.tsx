@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Chat from "@/components/Chat";
 import Hero from "@/components/Hero";
@@ -5,6 +6,8 @@ import Mission from "@/components/Mission";
 import Navbar from "@/components/Navbar";
 import Portifolio from "@/components/Portifolio";
 import Team from "@/components/Team";
+import SocialWork from "@/components/SocialWork";
+import BlogGallery from "@/components/BlogGallery";
 
 export default function Home() {
   return (
@@ -16,7 +19,10 @@ export default function Home() {
             <Hero />
             <Mission />
             <Team />
-            <Portifolio />
+            <SocialWork />
+
+            {/* <Portifolio /> */}
+            <BlogGallery/>
             <Chat />
           </div>
         </div>
